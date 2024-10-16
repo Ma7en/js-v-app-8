@@ -1,0 +1,24 @@
+.section {
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 0;
+   padding: 0;
+   background-color: transparent;
+   &.-header {
+      background-color: $color-white;
+   }
+   &.-hero {
+      background-color: $color-veryLightGray;
+   }
+   &.-feature {
+      background-color: $color-lightGrayishBlue;
+   }
+   &.-articles {
+      background-color: $color-veryLightGray;
+   }
+   &.-footer {
+      background-color: $color-darkBlue;
+   }
+}

@@ -1,0 +1,31 @@
+// IMPORTING SETTING
+@import "1-settings/breaks.scss";
+@import "1-settings/colors.scss";
+@import "1-settings/fonts.scss";
+@import "1-settings/spaces.scss";
+
+// IMPORTING TOOLS
+@import "2-tools/mixins.scss";
+
+// IMPORTING GENERIC
+@import "3-generic/reset.scss";
+
+// IMPORTING BASE
+@import "4-base/base.scss";
+
+// IMPORTING OBJECTS
+@import "5-objects/section.scss";
+@import "5-objects/container.scss";
+@import "5-objects/grid.scss";
+@import "5-objects/logo.scss";
+@import "5-objects/menu-button.scss";
+@import "5-objects/cta-button.scss";
+@import "5-objects/credits.scss";
+
+// IMPORTING COMPONENTS
+@import "6-components/main-header.scss";
+@import "6-components/main-nav.scss";
+@import "6-components/main-hero.scss";
+@import "6-components/main-feature.scss";
+@import "6-components/main-articles.scss";
+@import "6-components/main-footer.scss";
